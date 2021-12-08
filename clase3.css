@@ -1,0 +1,99 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+header{
+
+    height: 700px;
+    background-image:url(./img/guitars-2912447.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+li {
+    color: black;
+    display: inline-block;
+    padding: .50em;
+    text-decoration: none;
+    overflow: hidden;
+    width: 30%;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+   
+  }
+
+.ContainerLayout{ display: flex;
+         max-width: 1200px;
+         width: 100%;
+         margin: 0 auto;
+         flex-direction: row;
+         justify-self: center;
+         position: sticky;
+
+}
+
+
+
+
+ 
+.RedSocial { display: flex;
+             flex-direction: row;
+             justify-content:end;
+                                  
+}
+
+
+main { background-color:turquoise;
+    height: 50%;
+    
+
+}
+
+footer ul {background-color:coral;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    text-decoration: none;
+ 
+}
+
+.multimedia {
+             display: flex;
+             flex-direction: row;
+             justify-content: space-between;
+
+            
+}
+
+.form{
+    display: flex;
+    flex-direction:column;
+    border: 3px solid tomato; 
+    margin: auto;
+    font-weight:bold;
+    font-size:10px;
+    background-color:coral;
+   
+}
+
+.SeccionesDelMain{
+    background-color: rgb(35, 163, 163);
+    flex-direction: column;
+    
+}
+
+main p{
+    color: black;
+    text-decoration: none;
+
+
+}
+ 
+
+        
+
